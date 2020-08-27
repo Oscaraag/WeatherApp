@@ -1,0 +1,40 @@
+{
+	"name": "weatherapp",
+	"version": "1.0.0",
+	"description": "Weather App Vanilla JavaScript Practice",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode production",
+		"start": "webpack-dev-server --config ./webpack.dev.config.js --mode development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Oscaraag/WeatherApp.git"
+	},
+	"author": "Oscaraag",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Oscaraag/WeatherApp/issues"
+	},
+	"homepage": "https://github.com/Oscaraag/WeatherApp#readme",
+	"dependencies": {
+		"@babel/runtime": "^7.11.2",
+		"bootstrap": "^4.5.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.4",
+		"@babel/plugin-proposal-class-properties": "^7.10.4",
+		"@babel/plugin-transform-runtime": "^7.11.0",
+		"@babel/preset-env": "^7.11.0",
+		"babel-loader": "^8.1.0",
+		"css-loader": "^4.2.2",
+		"file-loader": "^6.0.0",
+		"html-webpack-plugin": "^4.3.0",
+		"mini-css-extract-plugin": "^0.10.0",
+		"style-loader": "^1.2.1",
+		"url-loader": "^4.1.0",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	}
+}
